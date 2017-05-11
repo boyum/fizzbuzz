@@ -1,0 +1,10 @@
+{
+  "curly": true,
+  "eqeqeq": true,
+  "undef": true,
+  "browser": false,
+  "esversion": 6,
+  "forin": true,
+  "freeze": true,
+  "maxdepth": true
+}
