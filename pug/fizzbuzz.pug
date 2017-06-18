@@ -1,0 +1,18 @@
+- var n = 100
+- var i = 0
+doctype html
+html(lang="en")
+    head
+        title="FizzBuzz"
+    body
+        .fizzbuzz
+            ol
+                while i++ < n
+                    if i % 15 == 0
+                        li= "FizzBuzz"
+                    else if i % 3 == 0
+                        li= "Fizz"
+                    else if i % 5 == 0
+                        li= "Buzz"
+                    else 
+                        li= i
