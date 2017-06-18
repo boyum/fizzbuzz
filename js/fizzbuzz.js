@@ -1,5 +1,3 @@
-/* global console */
-
 function fizzbuzz() {
   const n = 100;
 
