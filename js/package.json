@@ -1,0 +1,36 @@
+{
+  "name": "js",
+  "version": "1.0.0",
+  "description": "## How to run",
+  "main": "fizzbuzz.js",
+  "scripts": {
+    "test": "ava",
+    "start": "node ./fizzbuzz.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ava": "^0.19.1",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-es2017": "^6.24.1"
+  },
+  "ava": {
+    "files": [
+      "fizzbuzz.spec.js"
+    ],
+    "source": [
+      "fizzbuzz.js"
+    ],
+    "concurrency": 5,
+    "failFast": true,
+    "failWithoutAssertions": false,
+    "tap": true,
+    "powerAssert": false,
+    "require": [
+      "babel-register"
+    ],
+    "babel": "inherit"
+  }
+}
