@@ -3,3 +3,6 @@
 
 # elm
 elm/elm-stuff
+
+# VS Code Settings for C/C++
+.vscode/c_cpp_properties.json
