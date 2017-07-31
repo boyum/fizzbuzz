@@ -11,7 +11,7 @@ function fizzbuzz() {
 /**
  * Returns 'fizz' if the number is divisable by 3,
  * 'buzz' if the number is divisable by 5,
- * 'fizzbuzz' if dividable by 15,
+ * 'fizzbuzz' if divisable by 15,
  * and the number otherwise
  * @param {number} num
  * @return {string|number}
