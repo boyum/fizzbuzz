@@ -1,9 +1,9 @@
 function fizzbuzz() {
   const n = 100;
 
-  const fizzBuzzArr = Array.apply(0, Array(n)).map((el, i) => {
-    return getFizzOrBuzz(i + 1);
-  });
+  const fizzBuzzArr = Array
+    .apply(0, Array(n))
+    .map((el, i) => getFizzOrBuzz(i + 1));
 
   console.log(fizzBuzzArr);
 }
