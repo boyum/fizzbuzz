@@ -14,7 +14,7 @@ function fizzbuzz() {
  * 'fizzbuzz' if dividable by 15,
  * and the number otherwise
  * @param {number} num
- * @return {String|Number}
+ * @return {string|number}
  */
 function getFizzOrBuzz(num) {
   const f = !(num % 3);
