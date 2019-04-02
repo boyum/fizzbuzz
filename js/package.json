@@ -11,17 +11,19 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.4.0",
+    "@babel/plugin-transform-modules-commonjs": "^7.4.0",
+    "@babel/preset-env": "^7.4.2",
+    "@babel/register": "^7.4.0",
+    "@babel/runtime": "^7.4.2",
     "ava": "^1.4.1",
-    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
-    "babel-preset-es2015": "^6.24.1",
-    "babel-preset-es2017": "^6.24.1",
     "xo": "^0.24.0"
   },
   "ava": {
     "files": [
       "fizzbuzz.spec.js"
     ],
-    "source": [
+    "sources": [
       "fizzbuzz.js"
     ],
     "concurrency": 5,
@@ -30,9 +32,8 @@
     "tap": true,
     "powerAssert": false,
     "require": [
-      "babel-register"
-    ],
-    "babel": "inherit"
+      "@babel/register"
+    ]
   },
   "xo": {
     "space": true

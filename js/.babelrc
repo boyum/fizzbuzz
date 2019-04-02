@@ -1,9 +1,8 @@
 {
     "plugins": [
-        "transform-es2015-modules-commonjs"
+        "@babel/plugin-transform-modules-commonjs"
     ],
     "presets": [
-        "es2017",
-        "es2015"
+        "@babel/preset-env"
     ]
 }
