@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "pug ./fizzbuzz.pug"
+    "build": "npx pug-cli ./fizzbuzz.pug"
   },
   "keywords": [],
   "author": "",
