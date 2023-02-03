@@ -16,7 +16,7 @@
     "@babel/preset-env": "^7.10.4",
     "@babel/register": "^7.10.4",
     "@babel/runtime": "^7.10.4",
-    "ava": "^1.4.1",
+    "ava": "^5.1.0",
     "xo": "^0.32.1"
   },
   "ava": {
