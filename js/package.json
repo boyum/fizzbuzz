@@ -11,10 +11,10 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@babel/core": "^7.10.4",
-    "@babel/plugin-transform-modules-commonjs": "^7.10.4",
-    "@babel/preset-env": "^7.10.4",
-    "@babel/register": "^7.10.4",
+    "@babel/core": "^8.0.1",
+    "@babel/plugin-transform-modules-commonjs": "^8.0.1",
+    "@babel/preset-env": "^8.0.2",
+    "@babel/register": "^8.0.1",
     "@babel/runtime": "^7.10.4",
     "ava": "^5.3.1",
     "xo": "^0.54.1"
